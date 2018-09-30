@@ -1,17 +1,101 @@
 #home {
-  background-color: #D23333;
+  min-height: 90vh;
+}
+
+.home-content {
+  h2 {
+    color: $green;
+    margin-top: 0px;
+  }
+}
+
+.my_photo {
+  text-align: center;
+  img {
+    margin-top: 86px;
+    width: 68%;
+  }
+}
+
+.intro {
+  margin-bottom: 88px;
+  padding-top: 43px;
+}
+.dispo {
+  background-color: $dark-blue;
   color: white;
-  height: 100vh;
+  border-radius: 50px;
+  width: 114px;
+  height: 24px;
+  position: relative;
+    .circle_green {
+      height: 15px;
+      width: 15px;
+      background-color: $green;
+      border-radius: 50px;
+      margin: 4px 8px;
+      position: absolute;
+      left: 0px;
+    }
+    .dispo_text {
+      font-size: 12px;
+      font-weight: 300;
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      left: 29px;
+      top: 3px;
+    }
+}
+
+.bio {
+  padding-bottom: 24px;
+}
+
+.skills {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+
+
+}
+.skill {
+  background-color: $dark-blue;
+  color: white;
+  border-radius: 50px;
+  padding: 3px 20px;
+  font-weight: 300;
+
+}
+
+.call_to_action {
   text-align: center;
-  p {
-    margin-top: 1.5em;
+  margin-top: 78px;
+  margin-bottom: 42px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-bottom: 48px;
+    padding-top: 27px;
+}
+  .skills {
+    display: inline-block;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+  .skill {
+    margin-bottom: 13px;
+  }
+  .dispo {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .call_to_action {
+    margin-top: 40px;
+  }
+  .my_photo {
+    img {
+      margin-top: 0px;
+    }
   }
 }

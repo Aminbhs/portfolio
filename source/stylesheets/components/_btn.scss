@@ -1,0 +1,27 @@
+a:hover {
+color: white;
+text-decoration: none;
+}
+.book_green {
+  background-color: $green;
+  border-radius: 11px;
+  color: white;
+  padding: 11px 20px;
+  font-size: 20px;
+}
+
+.book_green:hover {
+  background-color: $dark-blue;
+}
+
+.book_green_navbar {
+  background-color: $green;
+  border-radius: 11px;
+  color: white;
+  padding: 8px 12px;
+
+}
+.book_green_navbar:hover {
+  background-color: $dark-blue;
+  color: white;
+}
