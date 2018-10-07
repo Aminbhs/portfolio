@@ -23,7 +23,7 @@ end
 
 
 set :protocol, "https://"
-set :host, "aminbhs.fr"
+set :host, "aminbhs.fr/"
 set :port, 80
 
 
