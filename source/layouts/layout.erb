@@ -7,17 +7,17 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
-    <meta name="description" content="<%= current_page.data.meta_description %>">
+    <meta name="description" content=<%= current_page.data.meta_description %>>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
     <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="<%= current_page.data.title %>" />
-    <meta property="og:description" content="<%= current_page.data.meta_description %>" />
+    <meta property="og:title" content=<%= current_page.data.title %> />
+    <meta property="og:description" content=<%= current_page.data.meta_description %> />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.aminbhs.fr" />
-    <meta property="og:image" content= "<%= image_path image_url('aminbhs-meta.png') %>" />
-    <meta property="og:site_name" content="<%= current_page.data.title %>" />
+    <meta property="og:image" content=<%= image_path image_url("aminbhs-meta.png") %> />
+    <meta property="og:site_name" content=<%= current_page.data.title %> />
 
   </head>
   <body>
