@@ -2,6 +2,11 @@ a:hover {
 color: white;
 text-decoration: none;
 }
+a:visited {
+color: white;
+text-decoration: none;
+}
+
 .book_green {
   background-color: $green;
   border-radius: 11px;
