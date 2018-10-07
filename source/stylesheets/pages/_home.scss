@@ -53,18 +53,15 @@
 }
 
 .skills {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-
+  text-align: center;
 }
 .skill {
   background-color: $dark-blue;
   color: white;
   border-radius: 50px;
-  padding: 3px 20px;
+  padding: 5px 20px;
   font-weight: 300;
+  width: 174px;
 
 }
 
@@ -74,17 +71,33 @@
   margin-bottom: 42px;
 }
 
+@media screen and (max-width: 992px) {
+  .skill {
+  padding: 5px 0px;
+  width: 160px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .skill {
+  padding: 5px 0px;
+  width: 160px;
+  margin-bottom: 13px;
+
+  }
+}
 
 @media screen and (max-width: 768px) {
   .intro {
     margin-bottom: 48px;
     padding-top: 27px;
 }
-  .skills {
-    display: inline-block;
-  }
+
   .skill {
     margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 206px;
+
   }
   .dispo {
     margin-left:auto;
